@@ -52,6 +52,18 @@ a{
 	padding: 0 5px;
 	text-decoration: none;
 }
+.navigation{
+	list-style: none;
+	height: 50px;
+	position: relative;
+}
+.navigation li {
+display: inline-block;
+position: relative;
+/*z-index: 9999;
+background: url(../images/star.png) no-repeat center right;*/
+padding-right: 10px;
+}
 
 .bottom-bg{
 	width: 100%;
