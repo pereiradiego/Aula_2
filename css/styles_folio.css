@@ -57,7 +57,7 @@ html, body {
 .top-bottom-collor{
 	background-color: #000011;
 	color: white;
-	height: 10%;
+	height: 15%;
 	width: 100%;
 }
 .top-bottom-collor a{
@@ -99,12 +99,20 @@ padding-right: 10px;
 .col-6{
 	display: block;
 	float: left;
+	margin-left: 20%;
+	margin-top: 45px;
 }
 .col-4{
 	width: 80%;
+
 }
+
 .col-6{
 	width: 25%;
+}
+
+.subir {
+	margin-top: -60px;
 }
 
 .clearfix:before,
