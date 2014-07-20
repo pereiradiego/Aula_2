@@ -6,3 +6,9 @@ cinza_news: #cdcdcd
 cinza_logos: #bebebe
 verde: #65ba99
 vermelho: #e2534b
+
+
+
+<script type="text/javascript" src="jquery-1.7.1"> </script>
+
+fancybox pra foto aparecer em "popup"

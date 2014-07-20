@@ -4,6 +4,15 @@
 <head>
 	<title>Portfolio</title>
 	<meta charset="utf-8">
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
     <!-- 
     <link rel="stylesheet" href="css/testestilo.css">
     -->
@@ -12,7 +21,12 @@
 </head>
 
 <!-- Chama o jQuery no HTML (Tem que baixar o jQ e colocar o .js na pasta junto com o projeto.)
-<script type="text/javascript" src="jquery-1.7.1"> </script> -->
+<script type="text/javascript" src="jquery-1.7.1"> </script> 
+-->
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Fim do jQuery -->
+
 <header class="clearfix header-size">
 	<div class="top-bottom-bg">
 		<div class="grid" >
@@ -51,7 +65,11 @@
 	<section>
 <!-- Usar o fancybox (ferramenta do jQuery(?)) pra dar efeito nas imagens - quando clicadas devem abrir em "pop up" no navegador, com a pagina ao fundo (ex.: foto do facebook).  -->
 		<ul>
-			<li><img src="portfolio/folio1.png"></li>
+		<!-- fancybox -->
+			<a class="fancybox" rel="group" href="portfolio/folio1.png"><img src="portfolio/folio1.png" alt="" /></a>
+			
+			
+			<!--<li><img src="portfolio/folio1.png"></li> -->
 			<li><img src="portfolio/folio2.png">
 				<img src="portfolio/folio3.png"></li>
 			<li><img src="portfolio/folio4.png">
