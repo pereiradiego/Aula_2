@@ -1,137 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>Portfolio</title>
-	<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Add fancyBox -->
-	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
-</script>
-    <!-- 
-    <link rel="stylesheet" href="css/testestilo.css">
-    -->
-    <link rel="stylesheet" href="css/styles_folio.css">
+		<title>Portfolio</title>
 
-</head>
+		<!-- Bootstrap -->
+    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Chama o jQuery no HTML (Tem que baixar o jQ e colocar o .js na pasta junto com o projeto.)
-<script type="text/javascript" src="jquery-1.7.1"> </script> 
--->
-<!-- Add jQuery library -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<!-- Fim do jQuery -->
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".fancybox").fancybox();
+			});
+		</script>
+	    
+	    <!-- link para css -->
+	    <link rel="stylesheet" href="css/styles_folio.css">
 
-<header class="clearfix header-size">
-	<div class="top-bottom-bg">
-		<div class="grid" >
-        	<div class="col-6">
-        		<h1 class="cabecalho">.FOLIO ONE PAGE PSD THEME</h1>
-        	</div><div class="clearfix"></div>
-        		
-        	<div class="col-4 subir">
-        		<h2>SIMPLE, CLEAR, MINIMAL PORTIFOLIO TEMPLATE</h2>
-        	</div>
-    	</div>
-    </div>
-    <div class="top-bottom-collor">
-		<div class="grid" >
-			<div class="col-8">
+	    
+	   
+    	<!-- Bootstrap core CSS -->
+	    <link href="bootstrap-3.2.0/docs/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom styles for this template -->
+	    <link href="grid.css" rel="stylesheet">
+		
+	</head>
+
+	<body>
+
+
+		<header class="clearfix header-size">
+			<div class="top-bottom-bg">
+				<div class="grid" >
+		        	<div class="col-6">
+		        		<h1 class="cabecalho">.FOLIO ONE PAGE PSD THEME</h1>
+		        	</div><div class="clearfix"></div>
+		        		
+		        	<div class="col-4 subir">
+		        		<h2>SIMPLE, CLEAR, MINIMAL PORTIFOLIO TEMPLATE</h2>
+		        	</div>
+		    	</div>
+		    </div>
+
+		    <div class="top-bottom-collor grid col-8">
 				<nav>
-					<div class="clearfix">
-						<a href="#">.FOLIO</a>
-					</div>
-					<div class="text-right">
-						<ul class="navigation">
-							<li><a href="#work">Work</a></li>
-							<li><a href="#news">News</a></li>
-							<li><a href="#bio">Bio</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</div>
+					<a href="#">.FOLIO</a>
+
+					<ul class="navigation text-right">
+						<li><a href="#work">Work</a></li>
+						<li><a href="#news">News</a></li>
+						<li><a href="#bio">Bio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</nav>
 			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
-</header>
-	<div class="clearfix"></div>
-<section class="clearfix">
-	<section>
-<!-- Usar o fancybox (ferramenta do jQuery(?)) pra dar efeito nas imagens - quando clicadas devem abrir em "pop up" no navegador, com a pagina ao fundo (ex.: foto do facebook).  -->
-		<ul>
-		<!-- fancybox -->
-			<a class="fancybox" rel="group" href="portfolio/folio1.png"><img src="portfolio/folio1.png" alt="" /></a>
-			
-			
-			<!--<li><img src="portfolio/folio1.png"></li> -->
-			<li><img src="portfolio/folio2.png">
-				<img src="portfolio/folio3.png"></li>
-			<li><img src="portfolio/folio4.png">
-				<img src="portfolio/folio5.png"></li>
-			<li><img src="portfolio/folio6.png"></li>
-		</ul>
-	</section>
-	<section class="news-header">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dicta architecto necessitatibus voluptatem voluptatum saepe</p>
-	</section>
-	<section>
-		<h1>NEWS /</h1>
-		<div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<img src="portfolio/folio4.png">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dicta architecto necessitatibus voluptatem voluptatum saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-		</div>
-		<div>
-			<div>
+
+			<!-- <div class="clearfix"></div> -->
+		</header>
+
+			<!-- <div class="clearfix"></div> -->
+		<section class="clearfix">
+			<section>
+		<!-- Usar o fancybox (ferramenta do jQuery(?)) pra dar efeito nas imagens - quando clicadas devem abrir em "pop up" no navegador, com a pagina ao fundo (ex.: foto do facebook).  -->
 				<ul>
-					<li>Tag1</li>
-					<li>Tag2</li>
-					<li>Tag3</li>
-					<li>Tag1</li>
-					<li>Tag2</li>
-					<li>Tag3</li>
-				</ul>
-			</div>
-			<div>
-				<ul>
+				<!-- fancybox -->
+					<a class="fancybox" rel="group" href="portfolio/folio1.png"><img src="portfolio/folio1.png" alt="" /></a>
+					
+					
+					<!--<li><img src="portfolio/folio1.png"></li> -->
+					<li><img src="portfolio/folio2.png">
+						<img src="portfolio/folio3.png"></li>
 					<li><img src="portfolio/folio4.png">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
-					<li><img src="portfolio/folio4.png">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+						<img src="portfolio/folio5.png"></li>
+					<li><img src="portfolio/folio6.png"></li>
 				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<ul class="navigation">
-			<li><img src="portfolio/manfrotto logo.png"></li>
-			<li><img src="portfolio/nikon logo.png"></li>
-			<li><img src="portfolio/canon logo.png"></li>
-			<li><img src="portfolio/prolight logo.png"></li>
-		</ul>
-	</section>
-	<section>
-		<h2>Biograph</h2>
-		<div>
-			JHON SMITS
-		</div>
-		<div>
-			<img src="portfolio/Avatar.png">
-		</div>
-		<div style="float:right;">
-			<p>BEST SOLUTION IS THE SIMPLEST IDEA!</p>
-			<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dicta architecto necessitatibus voluptatem voluptatum saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-		</div>
-			
-	</section>
-</section>
-<footer class="clearfix bottom-bg" id="contact">
-	Rodapé
-</footer>
+			</section>
+			<section class="news-header">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dicta architecto necessitatibus voluptatem voluptatum saepe</p>
+			</section>
+			<section>
+				<h1>NEWS /</h1>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<img src="portfolio/folio4.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dicta architecto necessitatibus voluptatem voluptatum saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div>
+					<div>
+						<ul>
+							<li>Tag1</li>
+							<li>Tag2</li>
+							<li>Tag3</li>
+							<li>Tag1</li>
+							<li>Tag2</li>
+							<li>Tag3</li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><img src="portfolio/folio4.png">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+							<li><img src="portfolio/folio4.png">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<ul class="navigation">
+					<li><img src="portfolio/manfrotto logo.png"></li>
+					<li><img src="portfolio/nikon logo.png"></li>
+					<li><img src="portfolio/canon logo.png"></li>
+					<li><img src="portfolio/prolight logo.png"></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Biograph</h2>
+				<div>
+					JHON SMITS
+				</div>
+				<div>
+					<img src="portfolio/Avatar.png">
+				</div>
+				<div style="float:right;">
+					<p>BEST SOLUTION IS THE SIMPLEST IDEA!</p>
+					<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dicta architecto necessitatibus voluptatem voluptatum saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<div class="col-md-1">.col-md-1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam eleifend ligula, eget interdum mauris euismod nec. Etiam fermentum volutpat tellus eu dapibus. Donec sit amet elit ornare, scelerisque eros posuere, feugiat lacus. Duis elementum interdum sagittis. Nullam at interdum nisl. Maecenas non lorem tellus. Nullam venenatis molestie commodo. Proin leo orci, vestibulum eget nibh non, condimentum adipiscing nisi. Pellentesque condimentum orci lorem, ac fringilla elit mollis in. Morbi posuere lorem ac mauris posuere, quis sagittis augue ultricies. Aenean gravida eu dolor in accumsan. Maecenas ac velit eu quam euismod egestas in eget lectus. Pellentesque sit amet felis massa. Duis consectetur commodo mauris, sed tempor dui auctor in. Nulla commodo sollicitudin quam, ut pellentesque mi hendrerit vitae. Maecenas pretium sem ut placerat cursus.</div>
+				</div>
+				<div class="row">
+				  <div class="col-md-8">.col-md-8</div>
+				  <div class="col-md-4">.col-md-4</div>
+				</div>
+					
+			</section>
+		</section>
+		<footer class="clearfix bottom-bg" id="contact">
+			Rodapé
+		</footer>
+
+
+		<!-- Chama o jQuery no HTML (Tem que baixar o jQ e colocar o .js na pasta junto com o projeto.)-->
+		<script type="text/javascript" src="jquery-1.7.1"> </script> 
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- Fim do jQuery -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+	</body>	
 </html>
