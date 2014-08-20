@@ -37,22 +37,29 @@ html, body {
 	height: 550px;
 }
 
-.cabecalho {
-	width: 45%;
+/*.cabecalho {
+	width: 49%;
 	padding-top: 7%;
-	/*position: relative;
+	position: relative;
 	min-height: 1px;
-	padding-right: 15px;*/
+	padding-right: 15px;
 	font-size: 90px;
 	line-height: 68px;
-	padding-left: 27%;
+	padding-left: 27%;*/
+.cabecalho {
+	width: 23%;
+	padding-top: 129px;
+	font-size: 89px;
+	line-height: 66px;
+	margin-left: 329px;
 }
 
-/*.cabecalho2 {
-	font-size: 20px;
+.cabecalho2 {
+	font-size: 34px;
 	line-height: 68px;
-	padding-left: 30%;
-}*/
+	padding-left: 330px;
+	margin-top: -32px;
+}
 
 .top-bottom-bg {
 	background-image: url("../portfolio/bg_header.png");
@@ -80,30 +87,34 @@ html, body {
 
 
 .top-bottom-collor{
-	background-color: #000011;
+	background-color: #252222;
 	color: white;
-	height: 15%;
+	height: 18%;
 	width: 100%;
 }
+
 .top-bottom-collor a{
 	color: white;
 	text-decoration: none;
 }
+
 a{
 	padding: 0 5px;
 	text-decoration: none;
 }
+
 .navigation{
 	list-style: none;
 	height: 50px;
 	position: relative;
 }
+
 .navigation li {
-display: inline-block;
-position: relative;
-/*z-index: 9999;
-background: url(../images/star.png) no-repeat center right;*/
-padding-right: 10px;
+	display: inline-block;
+	position: relative;
+	z-index: 9999;
+	background: url(../images/star.png) no-repeat center right;
+	padding-right: 10px;
 }
 
 .bottom-bg{
@@ -141,12 +152,6 @@ padding-right: 10px;
 	margin-bottom: 0; 
 }
 
-
-
-/*h1, h3, h4, h5, p{
-	margin-bottom: 22px;
-}*/
-
 .btn{
 	border-radius: 5px;
 	display: inline-block;
@@ -162,12 +167,41 @@ padding-right: 10px;
 	text-align: center;
 }
 
-.text-right{
-	text-align: right;
+
+.text-left {
+	text-align: left;
+	font-size: 17px;
+	margin-top: 41px;
+	padding-left: 0;
 }
 
 .texto-centro {
 	text-align: center;
+	font-size: 46px;
+	margin-top: 17px;
+}
+
+/*
+  ========================================
+  Efeito no link do cabecalho para ficar verde
+  ========================================
+*/
+a.linkCabecalho:link, a.linkCabecalho:visited {
+	text-decoration: none
+	}
+
+a.linkCabecalho:hover {
+	text-decoration: underline;
+	color: #65ba99;
+}
+
+a.linkCabecalho:active {
+	text-decoration: none
+}
+
+.portfolio {
+	/*display: inline-block;*/
+	margin: 100px 20%;
 }
 
 .news-header{
@@ -176,6 +210,9 @@ padding-right: 10px;
 	background-image: url("../portfolio/bg_testimonial.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	color: white;
+
+	
 }
 
 
