@@ -220,15 +220,23 @@ a.linkCabecalho:active {
 }
 
 .lorem {
+	width: 58%;
 	font-size: 40px;
 	text-align: center;
-	padding: 0 50px;
+	padding-top: 8%;
+	/*padding: 0 50px;*/
 	margin-left: 300px;
-	margin-top: 120px; 
+	/*margin-top: 120px; */
 }
 
 .loremDir {
 	text-align: right;
+	/*margin: 0 40px;*/
+}
+
+.loremEsq {
+	text-align: left;
+	/*margin: 0 40px;*/
 }
 
 h1 {
@@ -236,8 +244,12 @@ h1 {
 }
 
 .noticia {
-	/*float: right;*/
-	width: 40%;
+	width: 950px;
+	margin: 100px auto;
+}
+
+.margemBottom {
+	margin-bottom: 40px;
 }
 
 /*
